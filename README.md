@@ -4,7 +4,10 @@ Komentoriviltä käytettävä Ylen Teksti-TV-selain.
 
 Tämä Python-skripti hakee Teksti-TV-sivun kuvat Ylen JSON-rajapinnasta ja näyttää ne terminaalissa [chafa](https://hpjansson.org/chafa/)-ohjelman avulla.
 
----
+## Huomioitavaa
+
+- VS Code -terminaali ei näytä chafa-renderöintejä kunnolla
+- Kokeiltu MacOS:ssa iTermissä
 
 ## Ominaisuudet
 
@@ -14,7 +17,6 @@ Tämä Python-skripti hakee Teksti-TV-sivun kuvat Ylen JSON-rajapinnasta ja näy
   - `b` / `n`: edellinen / seuraava alasivu
 - Kuvan renderöinti terminaaliin (PNG → Unicode)
 
----
 
 ## Vaatimukset
 
@@ -29,8 +31,6 @@ Asenna Python-riippuvuudet:
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ## Käyttö
 
@@ -48,10 +48,7 @@ Sen jälkeen:
   - `n` = seuraava alasivu
   - `q` = lopeta
 
----
-
 ## Lisenssi
 
 MIT-lisenssi.
-```
 
